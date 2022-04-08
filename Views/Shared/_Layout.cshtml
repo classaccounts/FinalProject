@@ -25,8 +25,8 @@
             Jack's Pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Jack Hobby</a></li>
-            <li><a class="dropdown-item" href="#">Jack History</a></li>
+            <li><a class="dropdown-item" asp-area="" asp-controller="Jack" asp-action="Hobby">Jack's Hobbies</a></li>
+            <li><a class="dropdown-item" asp-area="" asp-controller="Jack" asp-action="Project">Jack's Projects</a></li>
           </ul>
         </li>
          <li class="nav-item dropdown">
@@ -34,9 +34,12 @@
             Alex's Pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Alex Hobby</a></li>
-            <li><a class="dropdown-item" href="#">Alex History</a></li>
+            <li><a class="dropdown-item" asp-area="" asp-controller="Alex" asp-action="Hobby">Alex's Hobbies</a></li>
+            <li><a class="dropdown-item" asp-area="" asp-controller="Alex" asp-action="Project">Alex's Projects</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" asp-area="" asp-controller="Home" asp-action="About">About</a>
         </li>
       </ul>
     </div>
