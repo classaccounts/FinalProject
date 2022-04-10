@@ -14402,8 +14402,18 @@
   "RootNamespace": "FinalProjectWebServerApp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Jack\\Hobby.cshtml",
+      "TargetPath": "Views\\Jack\\Hobby.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Alex\\Hobby.cshtml",
+      "TargetPath": "Views\\Alex\\Hobby.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14417,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Alex\\Project.cshtml",
+      "TargetPath": "Views\\Alex\\Project.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14439,11 @@
     {
       "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jackmchugh\\Desktop\\Web App Dev\\Final Project\\FinalProject\\Views\\Jack\\Project.cshtml",
+      "TargetPath": "Views\\Jack\\Project.cshtml",
       "FileKind": "mvc"
     },
     {
