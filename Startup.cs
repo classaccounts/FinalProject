@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FinalProjectWebServerApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProjectWebServerApp
 {
@@ -24,6 +26,10 @@ namespace FinalProjectWebServerApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<AboutContext>(
+                options => options.UseSqlServer(
+                    Configuration.GetConnectionString("AboutContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
