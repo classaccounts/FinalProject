@@ -2,9 +2,9 @@ using System;
 
 namespace FinalProjectWebServerApp.Models
 {
-    public class Hobby
+    public class Project
     {
-        public int HobbyId { get; set; }
+        public int ProjectId { get; set; }
 
         public string Title { get; set; }
 
