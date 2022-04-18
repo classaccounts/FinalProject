@@ -10,6 +10,7 @@ namespace FinalProjectWebServerApp.Models
 
         public string Description { get; set; }
 
+        public int StudentId { get; set; }
         public Student Student { get; set; }
 
     }
