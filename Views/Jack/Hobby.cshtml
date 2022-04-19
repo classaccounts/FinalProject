@@ -1,3 +1,4 @@
+@model JackHobbyProjectViewModel
 @{
     ViewData["Title"] = "Hobby Page";
 }
@@ -5,4 +6,9 @@
 <div class="text-center">
     <h1>Wow I can HTML lol</h1>
     Heres some of my hobbys and things that I enjoy!
+    @foreach (Hobby h in Model.Hobbies)
+            {
+                <h1>@h.Title</h1>
+                <p>@h.Description</p>
+            }
 </div>
