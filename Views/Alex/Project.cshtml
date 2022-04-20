@@ -1,18 +1,55 @@
+@model AlexHobbyProjectViewModel
 @{
     ViewData["Title"] = "Project Page";
 }
 
-<div class="text-center">
-Projects : 
-Discord Santa Bot 
-*insert code snippets for cool parts I guess*
-This discord bot I created was made to allow people in a server to select each other randomly for secret 
-santa ensuring that everyone would have a unique person to shop for while it remaining completely anonymous
+<div class="row d-flex justify-content-between">
+    <div class="row d-flex justify-content-between">
+    <div class="col-5">
+        <h2 class="text-center">
+            Secret Santa Bot
+        </h2>
+    </div>
+     <div class="col-5">
+        <h2 class="text-center">
+            Blender Chess Set
+        </h2>
+        
+    </div>
+    </div>
+    <div class="row d-flex justify-content-between">
+        <div class="col-5 d-flex align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <img src="~/images/santa.png">
+        </div>
+        
+        </div>
+        <div class="col-5">
 
-
-Blender Chess set 
-*insert image of chess set along with individual models*
-I recently picked up learning 3d modeling in blender and as a project a made a 3d model of a chess set and board.
+        <div class="d-flex justify-content-center">
+            <img src="~/images/Chess_Cycles.png">
+        </div>
+        </div>
+    </div>
+   
+    <div class="row d-flex justify-content-between" style="margin-top: 1rem;">
+        <div class="col-5">
+            <p>
+                This discord bot I created was made to allow people in a server to select each other randomly for secret
+                santa. This way who a person recieved would not be known to a third party allowing for complete
+                anonymity up until
+                the secret Santa gathering. This bot holds a list of users
+            </p>
+        </div>
+        <div class="col-5">
+            <p>
+                I recently picked up learning 3d modeling in blender and as a project a made a 3d model of a chess set
+                and board. Each piece was modeled seperately then placed inside a new file containing the board where
+                the chess scene
+                presented in the pictiure above was created and rendered out into a PNG. This was done over a period of
+                a few weeks in
+                my spare time.
+            </p>
+        </div>
+    </div>
 </div>
-
-
