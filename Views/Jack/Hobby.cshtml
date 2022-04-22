@@ -3,12 +3,29 @@
     ViewData["Title"] = "Hobby Page";
 }
 
-<div class="text-center">
-    <h1>Wow I can HTML lol</h1>
-    Heres some of my hobbys and things that I enjoy!
-    @foreach (Hobby h in Model.Hobbies)
-            {
+<div class="row d-flex justify-content-between">
+    <div class="row d-flex justify-content-between">
+        <div class="col-5 d-flex align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <img src="~/images/santa.png">
+            </div>
+
+        </div>
+        <div class="col-5">
+
+            <div class="d-flex justify-content-center">
+                <img src="~/images/Chess_Cycles.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-between" style="margin-top: 1rem;">
+        @foreach (Hobby h in Model.Hobbies)
+        {
+            <div class="col-5">
                 <h1>@h.Title</h1>
                 <p>@h.Description</p>
-            }
+            </div>
+        }
+    </div>
 </div>

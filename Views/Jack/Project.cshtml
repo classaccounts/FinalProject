@@ -3,12 +3,28 @@
     ViewData["Title"] = "Project Page";
 }
 
-<div class="text-center">
-    <h1>Wow I can HTML lol</h1>
-    Heres some of my hobbys and things that I enjoy!
-    @foreach (Project p in Model.Projects)
-            {
+<div class="row d-flex justify-content-between">
+    <div class="row d-flex justify-content-between">
+        <div class="col-5 d-flex align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <img src="~/images/santa.png">
+        </div>
+        
+        </div>
+        <div class="col-5">
+
+        <div class="d-flex justify-content-center">
+            <img src="~/images/Chess_Cycles.png">
+        </div>
+        </div>
+    </div>
+   
+    <div class="row d-flex justify-content-between" style="margin-top: 1rem;">
+        @foreach (Project p in Model.Projects) {
+            <div class="col-5">
                 <h1>@p.Title</h1>
                 <p>@p.Description</p>
-            }
+            </div>
+        }
+    </div>
 </div>
