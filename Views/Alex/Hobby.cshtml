@@ -3,7 +3,37 @@
     ViewData["Title"] = "Hobby Page";
 }
 
-<div class="text-center">
-    Heres some of my hobbies and things that I enjoy!
-    Figure this out!
+<div class="row d-flex justify-content-center">
+    I would say that my hobbies include two main things:
+    <ul class="row d-flex justify-content-between" style="margin-top: 1rem;">
+        @foreach (Hobby h in Model.Hobbies)
+        {
+            <div class="col-5 text-center">
+                <li><b>
+                        @h.Title
+                    </b>
+                </li>
+            </div>
+        }
+    </ul>
+    <div class="row d-flex justify-content-between" style="margin-bottom: 1rem;">
+        @foreach (Hobby h in Model.Hobbies)
+        {
+            <div class="col-5">
+                @h.Description
+            </div>
+        }
+    </div>
+    <div class="row d-flex justify-content-between">
+        <div class="col-5 d-flex align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <img style="max-width: 100%; max-height: 100%;" src="~/images/steamPage.png">
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="d-flex justify-content-center">
+                <img style="max-width: 100%; max-height: 100%;" src="~/images/bikeTrail.png">
+            </div>
+        </div>
+    </div>
 </div>
